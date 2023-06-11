@@ -22,7 +22,7 @@ function CategoriesPage() {
       });
   }
 
-  function fetchDishes(categoryId, category) {
+  function fetchDishes(categoryId) {
     const url = `https://projectapi.blacktree-6e79657f.germanywestcentral.azurecontainerapps.io/dishes?category_id=${categoryId}`;
   
     axios.get(url)
