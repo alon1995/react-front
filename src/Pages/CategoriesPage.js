@@ -58,7 +58,7 @@ function CategoriesPage() {
               // ...
               onClick={() => {
                 setSelectedCategory(category);
-                fetchDishes(category.id, category); 
+                fetchDishes(category.id); 
               }}
             >
               Show {category.name} Dishes
